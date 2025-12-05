@@ -1,0 +1,30 @@
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  background-color: orangered;
+  nav {
+    padding: 0.8rem 2rem;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      li {
+        transition: 0.3s;
+        &:hover {
+          scale: 1.05;
+          a {
+            color: black;
+          }
+        }
+        a {
+          transition: 0.3s;
+          font-size: 1rem;
+          color: #cec9c9;
+          font-weight: bold;
+          letter-spacing: 0.5rem;
+        }
+      }
+    }
+  }
+}

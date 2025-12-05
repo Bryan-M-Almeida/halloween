@@ -1,0 +1,51 @@
+section#detalhes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0;
+  h2 {
+    background: linear-gradient(to bottom, #732eb8, #f06e42);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Creepster";
+    font-size: 3.5em;
+  }
+
+  div.cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 2rem;
+    div.card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      background-color: #211e1c;
+      border-radius: 10px;
+      padding: 1.5rem;
+      gap: 1rem;
+
+      span.icon {
+        color: #f06e42;
+        font-size: 2rem;
+      }
+      div.info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        h3 {
+          color: #ffffff;
+          font-size: 1.4rem;
+        }
+
+        p {
+          color: #beb4a7;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
