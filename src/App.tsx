@@ -4,6 +4,8 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Detalhes from "./Components/Detalhes";
 import Fantasias from "./Components/Fantasias";
+import Footer from "./Components/Footer";
+import Ingressos from "./Components/Ingressos";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Hero />
       <Detalhes />
       <Fantasias />
+      <Ingressos />
+      <Footer />
     </>
   );
 }
